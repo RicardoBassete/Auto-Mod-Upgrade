@@ -49,7 +49,7 @@ public func AMU_LoadConfigs() -> Void {
 
 @addMethod(PlayerPuppet)
 public func AMU_QualityCeiling() -> Int32 {
-  return Cast<Int32>(EnumInt(this.amuConfig.qualityCeiling));
+  return EnumInt(this.amuConfig.qualityCeiling);
 }
 
 @addMethod(PlayerPuppet)
